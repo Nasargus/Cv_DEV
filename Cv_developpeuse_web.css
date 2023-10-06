@@ -1,0 +1,263 @@
+* {
+    margin: 0; /* make it everywhere from  the beginning*/
+    padding: 0;
+    box-sizing: border-box;
+    list-style: square;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.infoperso {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    color: #344966;
+    background-color:#DEB887 ;
+
+}
+
+.infoperso h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.infoperso h2, .infoperso h3 {
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 30%;
+}
+
+img {
+    border-radius: 100px;
+    width: 100%;
+}
+
+.wholecontent {
+    display: flex;
+    box-sizing: border-box;
+    
+    
+}
+.leftpart h2, .leftpart h3 {
+    margin-bottom: 10px;
+    
+}
+.leftpart h3, .leftpart h4 {
+    margin-bottom: 10px;
+    padding-left: 1%; /* la largeur du titre a partir du bord(pas trop cole au bord left*/
+}
+
+.leftpart { 
+    margin-left: 0;
+    padding: 10 50px 10 10px;
+    height: auto;
+    width: 40%;
+}
+.rightpart h2, .rightpart h3 {
+    margin-bottom: 10px;
+    list-style: square;
+}
+.formation 
+{
+    margin: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+    list-style: square;
+}
+
+.autre
+{
+    color: #344966; 
+    margin-bottom: 2rem;
+    padding-left: 20px;
+    box-sizing: border-box;
+    list-style: square;
+    border:  double 5px #926D27;
+    background-color:#DEB887 ;
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+}
+.rightpart h3, .rightpart h4 {
+    margin-bottom: 10px;
+}
+
+.rightpart {
+    padding: 10px 10px 30px 30px;
+    height: auto;
+    width: 45%;
+    }
+hr 
+    {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        border:solid, #DEB887 ;
+        width: 130%;
+        height: 3px;
+        box-sizing: border-box;
+    }
+
+
+.formation {
+    border:  double 5px #926D27;
+
+}
+
+
+.leftpart h3.leftpart h4
+{
+    margin-left: 2rem;
+}
+.communication {
+    border:  double 5px #926D27;
+    background-color:white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+@media screen and (max-width:1080px )
+
+{
+    hr
+    {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+         
+    }
+   .autre
+
+   {
+    margin-bottom: 0rem;
+   }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:844px )
+{
+    .infoperso 
+    {
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px;
+        color: #344966;
+        background-color:#DEB887 ;
+    
+    }
+    .infoperso h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .infoperso h2, .infoperso h3 {
+        margin-bottom: 10px;
+    }
+    .img {
+        display: block;
+        width: 50%;
+    margin-left:30% ;
+    margin: 30%;
+    }
+    img {
+        border-radius: 100px;
+        width: 100%;
+    }
+    .wholecontent {
+        display: inline-block;
+        box-sizing: border-box; 
+        width: 100%;
+    }   
+   .autre
+   {display:block;
+    margin-bottom: 0rem;
+   }
+   .leftpart h2, .leftpart h3 {
+    margin-bottom: 10px; 
+}
+.leftpart h3, .leftpart h4 {
+    margin-bottom: 10px;
+    padding-left: 1%; /* la largeur du titre a partir du bord(pas trop cole au bord left*/
+}
+.leftpart { 
+    display: block;
+    margin-left: 0;
+    padding: 10 50px 10 10px;
+    height: auto;
+    width: auto;
+}
+.rightpart h2, .rightpart h3 {
+    margin-bottom: 10px;
+    list-style: square;
+}
+.formation 
+{
+    display: block;
+    margin: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+    list-style: square;
+}
+
+.autre
+{
+    color: #344966; 
+    margin-bottom: 2rem;
+    padding-left: 20px;
+    box-sizing: border-box;
+    list-style: square;
+    border:  double 5px #926D27;
+    background-color:#DEB887 ;
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.rightpart h3, .rightpart h4 {
+    margin-bottom: 10px;
+}
+
+.rightpart {
+    padding: 10px 10px 30px 30px;
+    height: auto;
+    width: 100%;
+    display: block;
+    }
+hr 
+    {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        background-color: #DEB887 ;
+        width: 100%;
+        height: 3px;
+        box-sizing: border-box;
+    }
+
+
+.formation {
+    border:  double 5px #926D27;
+    width: 100%;
+
+}
+
+
+.leftpart h3.leftpart h4
+{
+    margin-left: 2rem;
+}
+.communication {
+
+    border:  double 5px #926D27;
+    background-color:white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+}
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
